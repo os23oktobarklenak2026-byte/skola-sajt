@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ovo je stranica sa kontakt informacijama zvaničnog veb sajta OŠ 23. oktobar Klenak">
+    <meta name="keywords" content="osnovna škola, oš, 23. oktobar, Klenak, Ruma, kontakt, telefon, e-mail, adresa, zakazivanje">
+    <meta name="robots" content="index, follow">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="../index.html">oš "23. oktobar"</a></div>
+            <button id="hamburger">☰</button>
+            <nav class="nav-menu" id="nav-meni">
+                <ul>
+                    <li><a href="../index.html">Početna</a></li>
+                    <li><a href="Vesti.html">Vesti</a></li>
+                    <li><a href="O nama.html">O nama</a></li>
+                    <li><a href="Nastavnici.html">Nastavnici</a></li>
+                    <li><a href="Servisi.html">Servisi</a></li>
+                    <li><a href="Kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="kontakt-raspored">
+        <section class="kontakt-struktura">
+            <h1 class="kontakt-struktura-section">Kontakt</h1>
+            <section class="kontakt_info kontakt-struktura-section active" id="sek1">
+                <div class="osnovne-informacije">
+                    <h2>Adresa</h2>
+                    <p>Mačvanksa 2, 22424, Klenak <br> Republika Srbija</p>
+                    <h2>Telefon</h2>
+                    <p>022/445-418</p>
+                    <h2>E-mail adresa</h2>
+                    <p>os23oktobar@mts.rs</p>
+                </div>
+            </section>
+            <!-- <form class="moja-forma kontakt-struktura-section" id="sek2">
+                <h2>Zakažite konsultacije/sastanak:</h2>
+                <div class="forma">
+                    <label for="ime">IME:</label>
+                    <input type="text" name="ime" size="30">
+                    <br>
+                    <label for="prezime">PREZIME:</label>
+                    <input type="text" name="prezime" size="30">
+                    <br>
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email" size="30">
+                    <br>
+                    <textarea name="comments" rows="6" cols="55" wrap="virtual"
+                        placeholder="Unesite vašu poruku, komentar ili pitanje ovde..."></textarea>
+                    <br>
+                    <label>
+                        <input type="radio" name="opcija" value="prva" onclick="prikaziMeni('prviMeni')"> Administracija
+                    </label>
+                    <label>
+                        <input type="radio" name="opcija" value="druga" onclick="prikaziMeni('drugiMeni')"> Nastava
+                    </label>
+
+                    <br>
+
+                    <select id="prviMeni" style="display:none;">
+                        <option value="1">Jasmina Popovic, direktor</option>
+                        <option value="2">Igor Nikic, pedagog</option>
+                        <option value="3">Andreja Savatic, pravni savetnik</option>
+                        <option value="4">Marina Gluvic, racunovođa</option>
+                        <option value="5">Danijel Jezdić, informatički koordinator</option>
+                    </select>
+
+                    <select id="drugiMeni" style="display:none;">
+                        <option value="A">Mirela Radojčić, srpski jezik</option>
+                        <option value="B">Slavica Petrović, srpski jezik</option>
+                        <option value="C">Milica Nozanic, engleski/nemacki jezik</option>
+                        <option value="D">Branislav Stolić, engleski jezik</option>
+                        <option value="E">Sandra Jovanović, matematika/fizika</option>
+                        <option value="F">Danijel Jezdić, matematika</option>
+                        <option value="G">Dejan Savić, biologija</option>
+                        <option value="H">Nebojša Poznanović, geografija</option>
+                        <option value="I">Nebojša Milutinović, likovna kultura</option>
+                        <option value="J">Danica Spasic, muzicka kultura</option>
+                        <option value="K">Dragan Gajić, verska nastava</option>
+
+                    </select>
+
+                    <br>
+                    <div class="dugme">
+                        <input type="submit" value="Zakažite!">
+                        <input type="reset" value="Poništi!">
+                    </div>
+                </div>
+            </form> -->
+            <section class="tabela kontakt-struktura-section" id="sek3">
+                <h2>Raspored časova:</h2>
+                <img src="../images/raspored_casova_25_26.png" alt="Raspored časova 2025/26 oš &quot 23. oktobar &quot">
+                <a href="../download/raspored_casova_25_26.pdf" download="">PREUZMITE RASPORED OVDE</a>
+            </section>
+
+            <section class="tabela kontakt-struktura-section" id="sek4">
+                <h2>Raspored konsultacija:</h2>
+                <img src="../images/konsultacije.jpg" alt="Raspored konsultacija 2025/26 oš &quot 23. oktobar &quot">
+                <a href="../images/konsultacije.jpg" download="">PREUZMITE RASPORED KONSULTACIJA</a>
+            </section>
+        </section>
+        <nav class="side-nav">
+            <ul>
+                <li><a href="#" data-target="sek1">Kontakt informacije</a></li>
+                <!-- <li><a href="#" data-target="sek2">Forma za zakazivanje</a></li> -->
+                <li><a href="#" data-target="sek3">Raspored časova</a></li>
+                <li><a href="#" data-target="sek4">Raspored konsultacija</a></li>
+                <li><a href="#" data-target="sve">Prikaži sve</a></li>
+            </ul>
+        </nav>
+    </main>
+    <footer>
+        <div class="footer-left">
+            <p>© 2025 OŠ "23. oktobar"</p>
+            <p>Sva prava zadržana.</p>
+        </div>
+
+        <div class="footer-right">
+            <a href="https://mojasrednjaskola.gov.rs/" target="_blank">Moja Srednja Škola</a>
+            <a href="https://esdnevnik.rs/" target="_blank">EsDnevnik</a>
+            <a href="Kontakt.html" target="_blank">Kontakt</a>
+        </div>
+    </footer>
+
+    <script>
+        function prikaziMeni(id) {
+            document.getElementById('prviMeni').style.display = 'none';
+            document.getElementById('drugiMeni').style.display = 'none';
+            document.getElementById(id).style.display = 'inline';
+        }
+
+        const links = document.querySelectorAll('.side-nav a');
+        const sections = document.querySelectorAll('.kontakt-struktura-section');
+
+        sections.forEach(section => section.style.display = 'block');
+
+        links.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('data-target');
+
+                if (targetId === 'sve') {
+                    sections.forEach(section => section.style.display = 'block');
+                } else {
+                    sections.forEach(section => {
+                        section.style.display = section.id === targetId ? 'block' : 'none';
+                    });
+                }
+
+                links.forEach(l => l.classList.remove('active-link'));
+                link.classList.add('active-link');
+            });
+        });
+
+        const dugme = document.getElementById('hamburger');
+        const meni = document.getElementById('nav-meni');
+        const logo = document.querySelector('.logo');
+
+        dugme.addEventListener('click', function () {
+            meni.classList.toggle('active');
+            logo.classList.toggle('hidden');
+
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ovo je stranica sa korsnim linkovima zvaničnog veb sajta OŠ 23. oktobar Klenak">
+    <meta name="keywords" content="osnovna škola, oš, 23. oktobar, Klenak, Ruma, es-dnevnik, ministarstvo_prosvete, zuov">
+    <meta name="robots" content="index, follow">
+    <title>Servisi</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="../index.html">oš "23. oktobar"</a></div>
+            <button id="hamburger">☰</button>
+            <nav class="nav-menu" id="nav-meni">
+                <ul>
+                    <li><a href="../index.html">Početna</a></li>
+                    <li><a href="Vesti.html">Vesti</a></li>
+                    <li><a href="O nama.html">O nama</a></li>
+                    <li><a href="Nastavnici.html">Nastavnici</a></li>
+                    <li><a href="Servisi.html">Servisi</a></li>
+                    <li><a href="Kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Servisi i korisni linkovi:</h1>
+        <section class="servisi-grid">
+            <div class="servisi-kartica">
+                <div>
+                    <img src="..//images/icons/esdnevnil.png" alt="EsDnevnik">
+                </div>
+                <div class="servisi_podaci">
+                    <h2>EsDnevnik</h2>
+                    <a href="https://esdnevnik.rs/" target="_blank">Vise</a>
+                </div>
+            </div>
+            <div class="servisi-kartica">
+                <div>
+                    <img src="..//images/icons/esdnevnik_roditelji.png" alt="EsDnevnik za roditelje">
+                </div>
+                <div class="servisi_podaci">
+                    <h2>EsDnevnik za roditelje</h2>
+                    <a href="https://moj.esdnevnik.rs/login" target="_blank">Vise</a>
+                </div>
+            </div>
+            <div class="servisi-kartica">
+                <div>
+                    <img src="..//images/icons/mss.png" alt="Moja srednja škola">
+                </div>
+                <div class="servisi_podaci">
+                    <h2>Moja srednja škola</h2>
+                    <a href="https://mojasrednjaskola.gov.rs/" target="_blank">Više</a>
+                </div>
+            </div>
+            <div class="servisi-kartica">
+                <div>
+                    <img src="..//images/icons/mss admin.png" alt="Moja srednja škola - administrativni portal">
+                </div>
+                <div class="servisi_podaci">
+                    <h2>Moja srednja škola - administrativni portal</h2>
+                    <a href="https://admin.mojasrednjaskola.gov.rs/Identity/Account/Login?ReturnUrl=%2F"
+                        target="_blank">Više</a>
+                </div>
+            </div>
+            <div class="servisi-kartica">
+                <div>
+                    <img src="..//images/icons/ministarstvo_prosvete.png" alt="Ministarstvo prosvete">
+                </div>
+                <div class="servisi_podaci">
+                    <h2>Ministarstvo prosvete</h2>
+                    <a href="https://prosveta.gov.rs/" target="_blank">Više</a>
+                </div>
+            </div>
+            <div class="servisi-kartica">
+                <div>
+                    <img src="..//images/icons/zuov.png" alt="Zavod za unapređenje obrazovanja i vaspitanja ZUOV">
+                </div>
+                <div class="servisi_podaci">
+                    <h2>Zavod za unapređenje obrazovanja i vaspitanja ZUOV</h2>
+                    <a href="https://zuov.gov.rs/" target="_blank">Više</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-left">
+            <p>© 2025 OŠ "23. oktobar"</p>
+            <p>Sva prava zadržana.</p>
+        </div>
+
+        <div class="footer-right">
+            <a href="https://mojasrednjaskola.gov.rs/" target="_blank">Moja Srednja Škola</a>
+            <a href="https://esdnevnik.rs/" target="_blank">EsDnevnik</a>
+            <a href="Kontakt.html" target="_blank">Kontakt</a>
+        </div>
+    </footer>
+    <script>
+        const dugme = document.getElementById('hamburger');
+        const meni = document.getElementById('nav-meni');
+        const logo = document.querySelector('.logo');
+
+        dugme.addEventListener('click', function () {
+            meni.classList.toggle('active');
+            logo.classList.toggle('hidden');
+
+        });
+    </script>
+</body>
+
+</html>

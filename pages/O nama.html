@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ovo je stranica sa osnovnim podacima o školi zvaničnog veb sajta OŠ 23. oktobar Klenak">
+    <meta name="keywords" content="osnovna škola, oš, 23. oktobar, Klenak, Ruma, o-nama, škola, istorija">
+    <meta name="robots" content="index, follow">
+    <title>O OŠ "23. oktobar"</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="../index.html">oš "23. oktobar"</a></div>
+            <button id="hamburger">☰</button>
+            <nav class="nav-menu" id="nav-meni">
+                <ul>
+                    <li><a href="../index.html">Početna</a></li>
+                    <li><a href="Vesti.html">Vesti</a></li>
+                    <li><a href="O nama.html">O nama</a></li>
+                    <li><a href="Nastavnici.html">Nastavnici</a></li>
+                    <li><a href="Servisi.html">Servisi</a></li>
+                    <li><a href="Kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div>
+            <div class="container-nama">
+                <h1>O našoj skoli:</h1>
+                <p>OŠ "23.oktobar" u Klenku ima duboke korene u vaspitno-obrazovnom radu. Osnovana je daleke 1873.
+                    godine kada je sagrađena i stara školska zgrada sa samo jednom učionicom. Do 1892. god. radilo je
+                    samo jedno odeljenje sa oko 30 učenika. 1902. god. otvoreno je i drugo odeljenje u zgradi preko puta
+                    današnje škole. Treće odeljenje otvoreno je 1925. Sadašnja školska zgrada sagrađena je 1910. sa tri
+                    učionice. Godine 1963. dograđena je školska zgrada sa pet učionica na spratu. Godine 1985. sagrađena
+                    je fiskulturna sala, a 1986. god. instalirano je parno grejanje u celokupan školski prostor.
+                    Veličina školskog prostora je 1236 m². Školu pohađa 196 učenika u osam razreda i 11 odeljenja. Škola
+                     trenutno ima 29 zaposlenih. </p>
+            </div>
+            <div>
+                <h2>Galerija:</h2>
+            </div>
+            <div class="nama-img">
+                <img src="../images/o_nama/skola.jpg" alt="Slika skole 23. oktobar">
+                <img src="../images/o_nama/skola2.png" alt="Nastavni kadar u školskom dvorištu">
+                <img src="../images/o_nama/skola3.png" alt="Učenici u školskom dvorištu">
+                <img src="../images/o_nama/skola4.png" alt="Učenici u školskom dvorištu">
+                <img src="../images/o_nama/skola5.png" alt="Školsko dvorište iz ugla sale za fizičko">
+                <img src="../images/o_nama/skola6.png" alt="Unutrašnjost sale za fizičko">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-left">
+            <p>© 2025 OŠ "23. oktobar"</p>
+            <p>Sva prava zadržana.</p>
+        </div>
+
+        <div class="footer-right">
+            <a href="https://mojasrednjaskola.gov.rs/" target="_blank">Moja Srednja Škola</a>
+            <a href="https://esdnevnik.rs/" target="_blank">EsDnevnik</a>
+            <a href="Kontakt.html" target="_blank">Kontakt</a>
+        </div>
+    </footer>
+    <script>
+        const dugme = document.getElementById('hamburger');
+        const meni = document.getElementById('nav-meni');
+        const logo = document.querySelector('.logo');
+
+        dugme.addEventListener('click', function () {
+            meni.classList.toggle('active');
+            logo.classList.toggle('hidden');
+
+        });
+    </script>
+</body>
+
+
+</html>
