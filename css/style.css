@@ -724,6 +724,14 @@ article#art1.feat-img {
   }
 }
 
+.formatiranje {
+
+    text-align: left;      /* da ne bude justify */
+    white-space: pre-wrap; /* zadrži format ali dozvoli lom reda */
+    overflow-wrap: break-word;
+
+}
+
 /* =============== Kontakt =============== */
 
 .kontakt-raspored {
@@ -916,3 +924,4 @@ article#art1.feat-img {
     font-size: 0.75em;
   }
 }
+
