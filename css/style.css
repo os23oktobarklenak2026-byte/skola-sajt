@@ -722,6 +722,13 @@ article#art1.feat-img {
   .post p{
     font-size: 0.75em;
   }
+  .formatiranje {
+
+    text-align: left;      /* da ne bude justify */
+    white-space: pre-wrap; /* zadrži format ali dozvoli lom reda */
+    overflow-wrap: break-word;
+
+}
 }
 
 .formatiranje {
@@ -924,4 +931,5 @@ article#art1.feat-img {
     font-size: 0.75em;
   }
 }
+
 
