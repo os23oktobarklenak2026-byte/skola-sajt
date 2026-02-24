@@ -569,6 +569,10 @@ footer {
 
 /* =============== vesti =============== */
 
+.vesti-main {
+  background-color: #eef3f8;
+}
+
 .sadrzaj {
   display: flex;
   gap: 20px;
@@ -931,5 +935,6 @@ article#art1.feat-img {
     font-size: 0.75em;
   }
 }
+
 
 
